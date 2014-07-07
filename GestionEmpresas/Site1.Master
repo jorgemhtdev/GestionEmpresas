@@ -1,20 +1,44 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="GestionEmpresas.Site1" %>
-
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Pagina Principal</title>    
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
+    <div class="container-fluid">
+
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
+
+        <footer>
+            <div class="row">
+              <div class="col-md-5 col-md-offset-1">
+                <div class="thumbnail">
+                  <div class="caption">
+                        C/ MAESTRO PADILLA 2 - 04005 ALMERÍA
+                        TLF: 950 23 22 11 | FAX: 950 25 94 34
+                        E-MAIL: CENTRAL@ALMERIMATIK.E
+                        Soporte Técnico
+                   </div>
+                </div>
+              </div>
+
+              <div class="col-md-5 col-md-offset-1">
+                <div class="thumbnail">
+                  <div class="caption">
+                        © 2009 - 2014 ALMERIMATIK
+                        RESERVADOS TODOS LOS DERECHOS
+                        Aviso legal
+                        Política de privacidad
+                   </div>
+                </div>
+              </div>
+            </div>
+        </footer>
     </div>
-    </form>
 </body>
 </html>
