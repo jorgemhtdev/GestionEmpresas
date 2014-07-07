@@ -15,6 +15,7 @@ namespace ServicioGestion
 
         [OperationContract]
         string GetData(int value);
+        string GetData2(int value);
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
