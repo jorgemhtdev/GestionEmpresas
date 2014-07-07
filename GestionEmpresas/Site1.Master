@@ -5,6 +5,7 @@
     <title>Pagina Principal</title>    
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
+
     </asp:ContentPlaceHolder>
 </head>
 <body>
