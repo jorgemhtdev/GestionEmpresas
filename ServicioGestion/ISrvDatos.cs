@@ -15,6 +15,10 @@ namespace ServicioGestion
 
         [OperationContract]
         string GetData(int value);
+        string GetData2(int value);
+
+        [OperationContract]
+        string GetData3(int value);
 
         [OperationContract]
         string GetLolo(int value);
