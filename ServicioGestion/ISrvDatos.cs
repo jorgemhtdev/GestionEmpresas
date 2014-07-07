@@ -17,6 +17,9 @@ namespace ServicioGestion
         string GetData(int value);
 
         [OperationContract]
+        string GetLolo(int value);
+
+        [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
         // TODO: Add your service operations here
