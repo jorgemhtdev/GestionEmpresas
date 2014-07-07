@@ -5,15 +5,20 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
-
+using ServicioGestion.Model;
 namespace ServicioGestion
 {
     
     public class SrvDatos : ISrvDatos
     {
-        public string GetData(int value)
+        public bool insertarTel(string value)
         {
-            return string.Format("You entered: {0}", value);
+            using (GestionEmpresasEntities bd = new GestionEmpresasEntities())
+            {
+                Sector u = new Sector();
+                u.descripcion = "prueba";
+                u.Empresa = 
+            }
         }
 
         public string GetData2(int value)
