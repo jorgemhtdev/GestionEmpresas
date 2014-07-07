@@ -71,9 +71,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\AccionComercial.cs">
-      <DependentUpon>BDGestion.tt</DependentUpon>
-    </Compile>
     <Compile Include="Model\BDGestion.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -88,33 +85,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BDGestion.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Model\Contacto.cs">
-      <DependentUpon>BDGestion.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\Direccion.cs">
-      <DependentUpon>BDGestion.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\Email.cs">
-      <DependentUpon>BDGestion.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\Empresa.cs">
-      <DependentUpon>BDGestion.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\EstadoDeAccion.cs">
-      <DependentUpon>BDGestion.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\Sector.cs">
-      <DependentUpon>BDGestion.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\Telefono.cs">
-      <DependentUpon>BDGestion.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\TipoDeAccion.cs">
-      <DependentUpon>BDGestion.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\Usuario.cs">
-      <DependentUpon>BDGestion.tt</DependentUpon>
     </Compile>
     <Compile Include="SrvDatos.svc.cs">
       <DependentUpon>SrvDatos.svc</DependentUpon>
