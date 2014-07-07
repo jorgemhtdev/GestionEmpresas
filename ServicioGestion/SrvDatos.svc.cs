@@ -16,6 +16,10 @@ namespace ServicioGestion
             return string.Format("You entered: {0}", value);
         }
 
+        public string GetData3(int value)
+        {
+            return string.Format("You entered: {0}", value);
+        }
         public CompositeType GetDataUsingDataContract(CompositeType composite)
         {
             if (composite == null)
